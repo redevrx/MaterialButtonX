@@ -5,7 +5,7 @@ A new Flutter package project.
 ## Getting Started
 
 <p align="center">
-  <img src="https://github.com/kasem0creater/Flutter-Material-Shape/blob/master/Screenshot_1594520681.png" width="350" title="hover text">
+  <img src="https://github.com/redevRx/MaterialButtonX/blob/main/Screenshot_1594520681.png" width="350" title="hover text">
 </p>
 
 This project is a starting point for a Dart
