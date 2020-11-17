@@ -1,8 +1,8 @@
 name: materialButtonX
-description: A new Flutter package project.
+description: create beautiful button.
 version: 0.0.1
-author:
-homepage:
+author: Kasem Saikhuedong<redev.rx@gmail.com>
+homepage: https://gist.github.com/redevRx/72d5009db01438eb3bbec6c48f6b7093
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
