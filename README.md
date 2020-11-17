@@ -4,15 +4,20 @@ A new Flutter package project.
 
 ## Getting Started
 
-<p align="center">
-  <img src="https://github.com/redevRx/MaterialButtonX/blob/main/Screenshot_1594520681.png" width="350" title="hover text">
-</p>
+<p>
+MaterialButtonX(
+                message: "Post",
+                height: 50.0,
+                width: 150.0,
+                color: Colors.blueAccent,
+                icon: Icons.add,
+                iconSize: 30.0,
+                radius: 46.0,
+                onClick: () {
+                  //TODO
+                },
+              )
+              </p>
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+  <img src="https://github.com/redevRx/MaterialButtonX/blob/main/Screenshot_1594520681.png" width="350">
