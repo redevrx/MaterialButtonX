@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:materialButtonX/materialButtonX.dart';
+import 'package:material_buttonx/materialButtonX.dart';
 
 class MyApp extends StatelessWidget {
   @override

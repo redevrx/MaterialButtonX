@@ -1,4 +1,4 @@
-library materialButtonX;
+library material_buttonx;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
