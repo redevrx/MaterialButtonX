@@ -33,6 +33,8 @@ class MaterialButtonX extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
+      onHover: (value) => null,
+      hoverColor: Colors.black26,
       onTap: onClick,
       child: Container(
         width: width,
