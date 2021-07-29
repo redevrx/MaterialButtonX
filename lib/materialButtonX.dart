@@ -10,24 +10,24 @@ import 'package:flutter/material.dart';
 // }
 
 class MaterialButtonX extends StatelessWidget {
-  final String message;
-  final double height;
-  final double width;
-  final Color color;
-  final double iconSize;
-  final IconData icon;
-  final Function onClick;
-  final double radius;
+  final String? message;
+  final double? height;
+  final double? width;
+  final Color? color;
+  final double? iconSize;
+  final IconData? icon;
+  final VoidCallback onClick;
+  final double? radius;
 
   const MaterialButtonX(
-      {Key key,
+      {Key? key,
       this.message,
       this.height,
       this.width,
       this.color,
       this.iconSize,
       this.icon,
-      this.onClick,
+      required this.onClick,
       this.radius})
       : super(key: key);
   @override
@@ -42,36 +42,36 @@ class MaterialButtonX extends StatelessWidget {
           color: Colors.white,
           boxShadow: [
             BoxShadow(
-                color: color,
+                color: color!,
                 offset: Offset(.5, .5),
                 spreadRadius: 1,
-                blurRadius: 12.0)
+                blurRadius: 8.0)
           ],
           borderRadius: BorderRadius.only(
-              bottomLeft: Radius.circular(height),
-              topLeft: Radius.circular(height),
-              topRight: Radius.circular(radius / 1.5),
-              bottomRight: Radius.circular(radius / 1.5)),
+              bottomLeft: Radius.circular(height!),
+              topLeft: Radius.circular(height!),
+              topRight: Radius.circular(radius! / 1.5),
+              bottomRight: Radius.circular(radius! / 1.5)),
         ),
         child: Stack(
           children: [
             Container(
               alignment: Alignment.center,
-              width: width - (height / 1.9),
+              width: width! - (height! / 1.9),
               height: height,
               decoration: BoxDecoration(
                 color: color,
                 borderRadius: BorderRadius.only(
-                    bottomLeft: Radius.circular(height),
-                    topLeft: Radius.circular(height),
+                    bottomLeft: Radius.circular(height!),
+                    topLeft: Radius.circular(height!),
                     // topRight: Radius.circular(radius),
-                    bottomRight: Radius.circular(width)),
+                    bottomRight: Radius.circular(width!)),
               ),
               child: Text(
-                "${message}",
+                "$message",
                 style: Theme.of(context)
                     .textTheme
-                    .headline6
+                    .headline6!
                     .copyWith(color: Colors.white),
               ),
             ),

@@ -1,11 +1,11 @@
 name: material_buttonx
 description: create beautiful button.
-version: 2.0.2
+version: 2.0.3
 author: Kasem Saikhuedong<redev.rx@gmail.com>
 homepage: https://gist.github.com/redevRx/72d5009db01438eb3bbec6c48f6b7093
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
